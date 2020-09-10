@@ -18,6 +18,8 @@ brew install libomp
 install brew update & brew install enchant
 ```
 
+See https://pyenchant.github.io/pyenchant/install.html for other examples.
+
 Dataset should be installed as a tab-seperated file in `ve` folder with with the name `founta-dataset.csv`. 
 
 Code expects a header line. If, necessary tabs should be escaped with `"` 
