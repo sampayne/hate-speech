@@ -18,7 +18,11 @@ brew install libomp
 install brew update & brew install enchant
 ```
 
-Dataset should be installed as a tab-seperated file in `ve` folder with with the name `founta-dataset.csv`. Code expects a header line. Example first lines:
+Dataset should be installed as a tab-seperated file in `ve` folder with with the name `founta-dataset.csv`. 
+
+Code expects a header line. 
+
+Example first lines with the label `hateful`:
 
 ```
 text	label
