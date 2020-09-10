@@ -171,9 +171,9 @@ INDENT = '    '
 
 def main():
 
-    print(api.load("word2vec-google-news-300", return_path=True))
-    print(api.load("glove-twitter-25", return_path=True))
-    return
+    #print(api.load("word2vec-google-news-300", return_path=True))
+    #print(api.load("glove-twitter-25", return_path=True))
+    #return
 
     print('Started:', datetime.now())
 
@@ -505,4 +505,3 @@ def load_tweets(data_set_name, target_labels, default_label):
 
 if __name__ == "__main__":
     main()
-
