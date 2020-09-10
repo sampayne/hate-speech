@@ -4,3 +4,4 @@
 ve/__pycache__/*
 ve/bin/*
 ve/lib/*
+ve/founta-dataset.csv
