@@ -1,0 +1,12 @@
+Mondal (2018) - metrics
+metric,precision,sig,recall,sig,f1,sig
+{hateful},0.625,{},0.001,{},0.002,{}
+{abusive or neither},0.950,{},1.000,{},0.975,{}
+macro,0.788,{},0.500,{},0.488,{}
+weighted macro,0.934,{},0.950,{},0.926,{}
+micro/accuracy,0.950,{},0.950,{},0.950,{}
+
+Mondal (2018) - confusion matrix
+,hateful #,sig,%,sig,abusive or neither #,sig,%,sig
+hateful,5.000,{},0.001,{},4960.000,{},0.999,{}
+abusive or neither,3.000,{},0.000,{},95028.000,{},1.000,{}

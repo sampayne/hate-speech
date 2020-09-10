@@ -1,0 +1,6 @@
+
+.idea/*
+.DS_Store
+ve/__pycache__/*
+ve/bin/*
+ve/lib/*

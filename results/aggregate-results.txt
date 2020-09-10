@@ -1,0 +1,44 @@
+dataset distribution
+{hateful},4965,4.97
+{abusive},27150,27.15
+{neither},67881,67.88
+total,99996
+
+Number of raw Hatebase terms: 1531
+Number of raw Hatebase terms without average_offensiveness: 619
+Number of Hatebase terms: 1536
+Number of Hatebase terms with average_offensiveness > 50: 784
+
+texts containing offensive hatebase terms
+label,frequency,ratio
+{hateful},856,17.24
+{abusive},1436,5.29
+{neither},1877,2.77
+total,4169,4.17
+texts containing any hatebase terms
+label,frequency,ratio,growth
+{hateful},1330,26.79,55.37
+{abusive},4460,16.43,210.58
+{neither},2942,4.33,56.74
+total,8732,8.73,109.45
+
+aggregate comparison
+model,metric,precision,recall,f1
+Gaydhani et al (2018),micro/accuracy,0.903,{0.001},0.903,{0.001},0.903,{0.001}
+Gaydhani et al (2018),macro,0.781,{0.008},0.715,{0.006},0.734,{0.006}
+Gaydhani et al (2018),weighted macro,0.897,{0.002},0.903,{0.001},0.898,{0.001}
+Malmasi & Zampieri (2018),micro/accuracy,0.869,{0.002},0.869,{0.002},0.869,{0.002}
+Malmasi & Zampieri (2018),macro,0.697,{0.005},0.684,{0.006},0.690,{0.006}
+Malmasi & Zampieri (2018),weighted macro,0.865,{0.002},0.869,{0.002},0.867,{0.001}
+Zhang et al (2018),micro/accuracy,0.915,{0.003},0.915,{0.003},0.915,{0.003}
+Zhang et al (2018),macro,0.825,{0.021},0.713,{0.014},0.735,{0.016}
+Zhang et al (2018),weighted macro,0.910,{0.003},0.915,{0.003},0.907,{0.003}
+Badjatiya et al (2017) Scaled,micro/accuracy,0.837,{},0.775,{},0.788,{}
+Badjatiya et al (2017) Scaled,macro,0.802,{},0.721,{},0.742,{}
+Badjatiya et al (2017) Scaled,weighted macro,0.837,{},0.775,{},0.788,{}
+{hateful} comparison
+model,precision,recall,f1
+Gaydhani et al (2018),0.561,{0.024},0.298,{0.021},0.389,{0.020}
+Malmasi & Zampieri (2018),0.357,{0.015},0.298,{0.019},0.325,{0.016}
+Zhang et al (2018),0.677,{0.067},0.253,{0.051},0.363,{0.047}
+Badjatiya et al (2017) Scaled,0.740,{},0.602,{},0.651,{}
