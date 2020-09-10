@@ -27,8 +27,8 @@ Code expects a header line. If necessary, tabs should be escaped with `"`
 Example first lines with the label `hateful`:
 
 ```
-text	label
-This is some text	hateful
+text	label confidence
+This is some text	hateful 4
 ```
 
 Run `python /ve/main.py` to run all models
