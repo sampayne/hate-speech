@@ -6,9 +6,9 @@ Use `pip_requirements.txt` to load required libraries:
 pip install -r pip_requirements.txt
 ```
 
-NLTK stopwords list is included in the project
+NLTK stopwords and scraped Hatebase terms are included in the project.
 
-To install word embeddings files, uncomment lines 173-175 in `ve/main.py` and run. Uncompress downloads and copy files to `ve/Vectors` folder
+To install word embeddings files, uncomment lines 173-175 in `ve/main.py` and run. Uncompress downloads and copy files to `ve/Vectors` folder.
 
 `enchant` library is include in `pip_requirements.txt` but underlying library should be installed on OS:
 
